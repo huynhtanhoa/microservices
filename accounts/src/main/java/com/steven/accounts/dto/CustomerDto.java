@@ -11,5 +11,7 @@ public class CustomerDto {
 
     private String mobileNumber;
 
+    // use to attach account details when return the response
+    private AccountsDto accountsDto;
 
 }
